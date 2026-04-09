@@ -9,7 +9,7 @@ export const Footer = () => {
           <div className="w-8 h-8 bg-primary text-white rounded-lg flex items-center justify-center text-sm">
             FP
           </div>
-          <span>Fuel Pay</span>
+          <span>Fuel Go</span>
         </div>
 
         <div className="flex flex-wrap items-center justify-center gap-8 text-slate-500 font-medium">
@@ -21,7 +21,7 @@ export const Footer = () => {
         </div>
 
         <div className="text-slate-400 text-sm">
-           &copy; {new Date().getFullYear()} Fuel Pay. All rights reserved.
+           &copy; {new Date().getFullYear()} Fuel Go. All rights reserved.
         </div>
       </Container>
     </footer>

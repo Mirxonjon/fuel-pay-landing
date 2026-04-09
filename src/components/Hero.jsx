@@ -84,7 +84,7 @@ export const Hero = () => {
             <div className="rounded-[40px] overflow-hidden shadow-[0_50px_100px_-20px_rgba(37,99,235,0.3)] border-[8px] border-white group">
               <img 
                 src="/assets/hero-mockup.png" 
-                alt="Fuel Pay App" 
+                alt="Fuel Go App" 
                 className="w-full h-auto transition-transform duration-1000 group-hover:scale-105"
               />
             </div>

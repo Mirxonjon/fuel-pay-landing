@@ -43,10 +43,10 @@ export const Navbar = ({ onConnectClick }) => {
       <Container className="flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center gap-2 font-bold text-2xl tracking-tight text-primary">
-          <div className="w-10 h-10 bg-primary text-white rounded-xl flex items-center justify-center">
-            <Fuel className="w-6 h-6" />
+          <div className="w-10 h-10 rounded-xl flex items-center justify-center overflow-hidden shadow-sm">
+            <img src="/logo.svg" alt="Fuel Go Logo" className="w-full h-full object-cover" />
           </div>
-          <span>Fuel Pay</span>
+          <span className="bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">Fuel Go</span>
         </div>
 
         {/* Desktop Menu */}

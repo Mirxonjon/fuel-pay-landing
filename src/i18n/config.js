@@ -22,7 +22,7 @@ const resources = {
         subtitle: 'Three simple steps to change the way you refuel forever.',
         step1: {
           title: 'Find station',
-          desc: 'Open the app and locate the nearest participating Fuel Pay station on our live interactive map.'
+          desc: 'Open the app and locate the nearest participating Fuel Go station on our live interactive map.'
         },
         step2: {
           title: 'Select pump',
@@ -55,7 +55,7 @@ const resources = {
       },
       business: {
         title: 'For Gas Stations',
-        subtitle: 'Increase revenue, reduce friction, and automate your pump management. Fuel Pay integrates directly with your existing POS.',
+        subtitle: 'Increase revenue, reduce friction, and automate your pump management. Fuel Go integrates directly with your existing POS.',
         prop1: 'Reduce personnel overhead',
         prop2: 'Increase customer throughput by 40%',
         prop3: 'Advanced analytics and loyalty programs',
@@ -66,7 +66,7 @@ const resources = {
         subtitle: 'We use multi-layered security protocols. Your financial data is tokenized and never stored on our servers. With biometric locking, even if you lose your phone, your fuel wallet remains untouchable.'
       },
       cta: {
-        title: 'Start using Fuel Pay today',
+        title: 'Start using Fuel Go today',
         subtitle: 'Download the app and get $5 off your first full tank. Join over 2 million drivers on the road.',
       }
     }
@@ -124,7 +124,7 @@ const resources = {
       },
       business: {
         title: 'Для АЗС',
-        subtitle: 'Увеличьте выручку, уберите барьеры и автоматизируйте управление колонками. Fuel Pay легко интегрируется с вашей кассой.',
+        subtitle: 'Увеличьте выручку, уберите барьеры и автоматизируйте управление колонками. Fuel Go легко интегрируется с вашей кассой.',
         prop1: ' Снижение затрат на персонал',
         prop2: 'Увеличение пропускной способности на 40%',
         prop3: 'Продвинутая аналитика и программы лояльности',
@@ -135,7 +135,7 @@ const resources = {
         subtitle: 'Мы используем многоуровневые протоколы защиты. Ваши данные токенизированы, а биометрия защитит кошелек даже при потере телефона.'
       },
       cta: {
-        title: 'Начните использовать Fuel Pay сегодня',
+        title: 'Начните использовать Fuel Go сегодня',
         subtitle: 'Скачайте приложение и получите скидку на первую заправку. Присоединяйтесь к 2 миллионам водителей.',
       }
     }
@@ -193,7 +193,7 @@ const resources = {
       },
       business: {
         title: 'Yoqilg‘i shoxobchalari uchun',
-        subtitle: 'Daromadni oshiring, jarayonlarni yengillashtiring va boshqaruvni avtomatlashtiring. Fuel Pay mavjud tizimingizga oson ulanadi.',
+        subtitle: 'Daromadni oshiring, jarayonlarni yengillashtiring va boshqaruvni avtomatlashtiring. Fuel Go mavjud tizimingizga oson ulanadi.',
         prop1: 'Xodimlar harajatlarini kamaytirish',
         prop2: 'O‘tkazuvchanlik qobiliyatini 40% ga oshirish',
         prop3: 'Kengaytirilgan tahlil va sodiqlik dasturlari',
@@ -204,7 +204,7 @@ const resources = {
         subtitle: 'Biz ko‘p bosqichli xavfsizlik protokollaridan foydalanamiz. Ma’lumotlaringiz xavfsiz, biometriya esa hamyoningizni ishonchli himoya qiladi.'
       },
       cta: {
-        title: 'Bugun Fuel Paydan foydalanishni boshlang',
+        title: 'Bugun Fuel Godan foydalanishni boshlang',
         subtitle: 'Ilovani yuklab oling va birinchi zapravka uchun chegirmaga ega bo‘ling. 2 milliondan ortiq haydovchilarga qo‘shiling.',
       }
     }
