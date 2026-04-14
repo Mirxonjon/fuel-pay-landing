@@ -76,14 +76,22 @@ export const DownloadCTA = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <MagneticButton variant="white" className="px-5 py-2.5 text-xs rounded-xl shadow-2xl shadow-white/5">
+              <MagneticButton 
+                variant="white" 
+                className="px-5 py-2.5 text-xs rounded-xl shadow-2xl shadow-white/5"
+                onClick={() => window.open('https://apps.apple.com/us/app/fuelgo/id6761782544', '_blank')}
+              >
                 <Apple className="w-4 h-4 fill-slate-950" />
                 <div className="text-left leading-tight">
                   <div className="text-[7px] uppercase font-black opacity-40">App Store</div>
                   <div className="font-black text-slate-950">Download</div>
                 </div>
               </MagneticButton>
-              <MagneticButton variant="secondary" className="px-5 py-2.5 text-xs rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 backdrop-blur-md">
+              <MagneticButton 
+                variant="secondary" 
+                className="px-5 py-2.5 text-xs rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 backdrop-blur-md"
+                onClick={() => window.open('https://play.google.com/store/apps/details?id=uz.flow.fuelgo&pcampaignid=web_share', '_blank')}
+              >
                 <Play className="w-4 h-4 fill-white" />
                 <div className="text-left leading-tight">
                   <div className="text-[7px] uppercase font-black opacity-40">Google Play</div>

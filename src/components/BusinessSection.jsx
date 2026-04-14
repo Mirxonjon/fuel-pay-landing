@@ -62,31 +62,23 @@ export const BusinessSection = ({ onConnectClick }) => {
             viewport={{ once: true }}
             className="hidden lg:block relative"
           >
-             {/* Mocking a dashboard interface overlay */}
-             <div className="p-8 bg-white/10 backdrop-blur-xl border border-white/20 rounded-3xl shadow-2xl">
-                <div className="flex items-center justify-between mb-8">
-                  <div className="h-4 w-32 bg-white/20 rounded-full" />
-                  <div className="h-8 w-8 bg-emerald-500 rounded-lg" />
-                </div>
-                <div className="grid grid-cols-2 gap-4 mb-8">
-                  <div className="h-24 bg-white/5 rounded-2xl p-4">
-                    <div className="h-2 w-12 bg-white/20 rounded-full mb-4" />
-                    <div className="h-6 w-20 bg-white rounded-full" />
-                  </div>
-                  <div className="h-24 bg-white/5 rounded-2xl p-4">
-                    <div className="h-2 w-12 bg-white/20 rounded-full mb-4" />
-                    <div className="h-6 w-20 bg-white rounded-full" />
-                  </div>
-                </div>
-                <div className="h-48 bg-white/5 rounded-2xl relative overflow-hidden">
-                  <div className="absolute inset-x-0 bottom-0 top-1/2 bg-gradient-to-t from-primary/20 to-transparent" />
-                  {/* Mock Chart lines */}
-                  <div className="absolute inset-0 flex items-end p-8 gap-1">
-                    {[40, 70, 45, 90, 65, 80, 50].map((h, i) => (
-                      <div key={i} className="flex-1 bg-primary/40 rounded-t-sm" style={{ height: `${h}%` }} />
-                    ))}
-                  </div>
-                </div>
+             {/* Generated Dashboard Mockup Image */}
+             <div className="relative group perspective-1000">
+               <motion.div
+                 whileHover={{ rotateX: 5, rotateY: -5, scale: 1.02 }}
+                 transition={{ type: "spring", stiffness: 300, damping: 20 }}
+                 className="rounded-3xl overflow-hidden border border-white/10 shadow-2xl shadow-emerald-500/10 bg-slate-800"
+               >
+                 <img 
+                   src="/assets/dashboard-mockup.png" 
+                   alt="Dashboard Mockup" 
+                   className="w-full h-auto object-cover opacity-90 transition-opacity duration-500 group-hover:opacity-100"
+                 />
+                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900/40 to-transparent pointer-events-none" />
+               </motion.div>
+               {/* Decorative glows behind the image */}
+               <div className="absolute -inset-4 bg-primary/20 blur-3xl rounded-[3rem] -z-10 group-hover:bg-primary/30 transition-colors duration-500" />
+               <div className="absolute -right-4 top-1/2 -translate-y-1/2 w-32 h-32 bg-emerald-500/20 blur-3xl rounded-full -z-10 group-hover:bg-emerald-500/30 transition-colors duration-500" />
              </div>
           </motion.div>
         </div>
